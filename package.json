@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Rahulnegi8192/backend-starter#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^17.0.0",
     "express": "^5.1.0"
   },
